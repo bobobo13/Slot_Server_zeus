@@ -1,0 +1,21 @@
+services:
+  slotservice:
+    build:
+      context: . # Path to the slot_service parent directory
+      dockerfile: Dockerfile
+    image: "slotservice:${TAG}"
+    expose:
+      - "8080"
+    ports:
+      - "8080:8080"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - /dev/log:/dev/log
+
+    working_dir: /service/SlotService/
+    #command: /bin/bash -c "export PYTHONPATH=$PYTHONPATH:/service/ && python -m SlotService.RunSlotService"
+    command: /bin/bash -c "export PYTHONPATH=$PYTHONPATH:/service/ && gunicorn -b 0.0.0.0:8080 -w 16 -k gevent --access-logfile - --error-logfile - RunSlotService:httpApp | logger -t gunicorn"
+    env_file:
+      - /etc/igs/.env
+

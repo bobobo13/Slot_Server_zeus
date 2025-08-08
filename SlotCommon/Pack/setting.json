@@ -1,0 +1,12 @@
+{
+  "pack_ver": "1.0.0",
+  "pack_ver_desc": "用於送審的打包版本號，此版本號不會用於clone，只作為識別送審版本的標識",
+  "game_name": "CashKing",
+  "game_name_desc": "遊戲的名稱，用於Clone Git repository",
+  "game_git_tag": "1.0.3",
+  "game_git_tag_desc": "遊戲的git版本號，用於Clone Git repository",
+  "slot_common_git_tag": "1.0.3",
+  "slot_common_git_tag_desc": "SlotCommon 模組的 Git 版本號，用於Clone Git repository",
+  "slot_server_git_tag": "1.0.3",
+  "slot_server_git_tag_desc": "SlotServer 模組的 Git 版本號，用於Clone Git repository"
+}

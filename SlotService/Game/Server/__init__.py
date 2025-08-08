@@ -1,0 +1,1 @@
+__version__ = 'BaseServer-1.0.0'

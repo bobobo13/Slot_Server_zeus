@@ -1,0 +1,9 @@
+Version,Group,GameName,Enable,MaxWin,BufferGateValue1,BufferGate1,NoWinGate1,BufferGateValue2,BufferGate2,NoWinGate2,BufferGateValue3,BufferGate3,NoWinGate3
+macross,default,LionDanceLegi,TRUE,75000000,-8000000,0,0.1,-20000000,0,0.3,-25000000,1,1
+macross,default,CashKing,TRUE,75000000,-8000000,0,0.1,-20000000,0,0.3,-25000000,1,1
+macross,default,ChaChaCha,TRUE,75000000,-8000000,0,0.1,-20000000,0,0.3,-25000000,1,1
+macross,default,FortuneGems,TRUE,75000000,-8000000,0,0.1,-20000000,0,0.3,-25000000,1,1
+macross,default,CandyRush,TRUE,75000000,-8000000,0,0.1,-20000000,0,0.3,-25000000,1,1
+macross,default,Razor,TRUE,75000000,-8000000,0,0.1,-20000000,0,0.3,-25000000,1,1
+macross,default,WuJinPen,TRUE,75000000,-8000000,0,0.1,-20000000,0,0.3,-25000000,1,1
+macross,default,Zeus,TRUE,75000000,-8000000,0,0.1,-20000000,0,0.3,-25000000,1,1

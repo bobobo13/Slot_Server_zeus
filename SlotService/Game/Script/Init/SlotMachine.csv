@@ -1,0 +1,7 @@
+GameName,GameUrl,CodeName,Cost,BatchFeverId,BatchFeverEnable
+LionDanceLegi,127.0.0.1:5283,LionDance,1,"[1]",FALSE
+CashKing,127.0.0.1:5288,CashKing,1,"[]",FALSE
+ChaChaCha,127.0.0.1:1005,ChaChaCha,1,"[0, 1]",TRUE
+Razor,127.0.0.1:8082,Razor,20,"[]",FALSE
+WuJinPen,127.0.0.1:8083,WuJinPen,25,"[]",FALSE
+Zeus,127.0.0.1:8084,Zeus,20,"[]",FALSE

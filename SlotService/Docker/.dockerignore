@@ -1,0 +1,10 @@
+**/*.pyc
+venv
+**/GeoLite2-City.mmdb
+Log/
+**/.git
+**/.svn
+.idea
+
+pixiu
+GuaiGuaiLib
